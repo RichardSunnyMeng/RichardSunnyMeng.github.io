@@ -1,0 +1,48 @@
+name:               "Zheling Meng"
+description:        "Ph.D. Candidate @ CASIA, NLPR"
+
+url:                ""
+author:             "Zheling Meng"
+email:              "zheling.meng@cripac.ia.ac.cn"
+gravatar_hash:      "/my_photo.jpg"
+twitter:            ""
+email:              "zheling.meng@cripac.ia.ac.cn"
+github:             "RichardSunnyMeng"
+google_scholar:     "citations?user=3iPjpvQAAAAJ&hl=zh-CN"
+linkedin:           ""
+facebook:           ""
+
+disqus_shortname:   "thinker3197"
+
+background:         "/bg.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
